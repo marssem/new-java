@@ -1,10 +1,10 @@
 package s0623;
 
-public class Dog {
+public class Cat {
 	private String name;
 	private int age;
 	public String toString() {
-		return "name :" + name +", age :"+age;
+		return "name:"+name+", "+"age : "+age;
 	}
 	
 	public String getName() {
@@ -19,4 +19,7 @@ public class Dog {
 	public void setAge(int age) {
 		this.age = age;
 	}
+	
+	
+
 }
