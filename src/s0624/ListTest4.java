@@ -6,7 +6,7 @@ import java.util.List;
 public class ListTest4 {
 	
 	static void doPerson(Person p) {
-		p = new Person();
+		//p = new Person();
 		p.setName("aa");
 	}
 public static void main(String[] args) {
