@@ -27,7 +27,8 @@ public class Connecter {
 			}
 			sql = "INSERT INTO user\r\n" + 
 					"VALUES(2,'oo','test')";
-			int result = stmt.executeUpdate(sql);//
+			
+			int result = stmt.executeUpdate(sql);
 			System.out.println("니 실행결과 반영 갯수: "+result);
 			
 		} catch (ClassNotFoundException e) {
